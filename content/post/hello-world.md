@@ -56,4 +56,4 @@ $ hugo deploy
 
 更多信息：[Hugo 发布](https://gohugo.io/commands/hugo_deploy/)
 
-祝你好运，相信你会喜欢上 Hugo 建站的旅程！谢谢！
+祝你好运，相信你会喜欢上 Hugo 建站的旅程！
