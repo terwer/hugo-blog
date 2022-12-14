@@ -12,6 +12,10 @@
 
 若想在 Vercel 平台上部署站点可直接点击右侧的按钮：[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhugo-next%2Fhugo-theme-next-starter&env=HUGO_VERSION&envDescription=Enter%20latest%20version%20of%20Hugo%20engine.&envLink=https%3A%2F%2Fgithub.com%2Fgohugoio%2Fhugo%2Freleases%2F&project-name=my-blog&repo-name=my-blog&demo-title=Hugo%20NexT%20Theme&demo-description=Easily%20%26%20powerful%20theme%20of%20Hugo%20engine.&demo-url=https%3A%2F%2Fhugo-next.eu.org%2F&demo-image=https%3A%2F%2Fimgs.lisenhui.cn%2Fhugo-next%2Fhugo-next-demo.png&install-command=git%20submodule%20add%20https%3A%2F%2Fgithub.com%2Fhugo-next%2Fhugo-theme-next.git%20themes%2Fhugo-theme-next)
 
+```bash
+git submodule add https://github.com/hugo-next/hugo-theme-next.git themes/hugo-theme-next
+```
+
 ### ➕ 创建 Github 仓库
 
 请使用 Github 账户授权登录，参考下面截图输入新仓库名字，点击 `Create` 按钮（注意确认否要创建私有仓库），接下来在 HUGO_VERSION 中输入 `Hugo` 的最新版本号并发布。
