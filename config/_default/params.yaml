@@ -28,10 +28,10 @@ darkmode: true
 
 # 站点基本信息
 # Site Information Settings
-author: NexT 主题
-subtitle: 为 Hugo 打造的主题
-description: 保持简单的易用性和强大的功能。
-keywords: Hugo,NexT,主题,简单,强大
+author: terwer
+subtitle: 专注于服务端技术分享
+description: 专注于服务端技术分享
+keywords: 软件架构,服务端开发,Java,Spring,Dubbo,Zookeeper,微服务,vuejs,css3,html5,Node,git,github,markdown
 
 # 不同尺寸站点图标
 # Different size of favicon
@@ -162,13 +162,13 @@ siteState:
 # Key is the link label order.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 socials: 
-  social0: Github || https://github.com/elkan1788 || fab fa-github
-  #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
-  social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
+  social0: Github || https://github.com/terwer || fab fa-github
+  social1: E-Mail || mailto:youweics@163.com || fa fa-envelope
+  social2: 知乎 || https://www.zhihu.com/people/terwer || fa fa-book
   #Google: https://plus.google.com/yourname || fab fa-google
-  #Twitter: https://twitter.com/yourname || fab fa-twitter
+  Twitter: Twitter || https://twitter.com/youweitang || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
-  #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
+  #StackOverflow: https://stackoverflow.com/users/4037224/terwer || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
@@ -206,7 +206,7 @@ linksSets:
 # Usage: `Key: name || permalink`
 links: 
   link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
-  link1: 凡梦星尘空间站 || https://lisenhui.cn
+  link1: 远方的灯塔 || https://hugo.terwer.space
 
 # 文章目录显示
 # Table of Contents in the Sidebar
@@ -236,11 +236,11 @@ toc:
 footer:
   # 启动谷歌翻译功能
   # Enable google translate in footer
-  translate: true
+  translate: false
   # 站点开始年份，默认为当下时间的年份
   # Specify the year when the site was setup. 
   # If not defined, current year will be used.
-  since: 2010
+  since: 2011
 
   # 年份和版权信息之间的图标
   # Icon between year and copyright info.
@@ -257,7 +257,7 @@ footer:
 
   # 版权信息，如不设置将会使用 `author` 变量
   # If not defined, `author` from site information will be used.
-  copyright:
+  copyright: terwer All rights reserved
 
   # 显示 Hugo 和 NexT 支持
   # Powered by Hugo & NexT
@@ -269,9 +269,9 @@ footer:
   beian:
     enable: true
     # ICP 备案的具体信息
-    icp: 粤ICP备 18047355-1 号
+    icp: 粤ICP备 2022020721 号
     # 公安网备的省份简称
-    provinceAbbr: 沪
+    provinceAbbr: 粤
     # 公安网备案号
     gonganNum: 31011402009770
 
@@ -290,13 +290,6 @@ footer:
           url: /imgs/vendors/vercel.svg
           width: 50
         link: https://vercel.com
-      - name: 又拍云
-        image: 
-          url: /imgs/vendors/upyun.png
-          width: 43
-        link: https://upyun.com
-      - name: Webify
-        link: https://webify.cloudbase.net
 
 
 # ---------------------------------------------------------------
@@ -356,8 +349,8 @@ rewardSets:
   # Donate type
   # Usage: `name:image url`
   reward:
-    wechatpay: /imgs/wechat-pay.png
-    alipay: /imgs/ali-pay.png
+    wechatpay: https://img1.terwer.space/wechat.jpg
+    alipay: https://img1.terwer.space/alipay.jpg
     #paypal: /images/paypal.png
     #bitcoin: /images/bitcoin.png
 
@@ -366,17 +359,18 @@ rewardSets:
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: name || permalink || icon` (Font Awesome)
 followMe:
-  #channel0: Twitter || https://twitter.com/username || fab fa-twitter
+  channel0: Twitter || https://twitter.com/youweitang || fab fa-twitter
   #channel1: Telegram || https://t.me/channel_name || fab fa-telegram
-  channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
-  channel3: RSS || /atom.xml || fa fa-rss
+  #channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
+  channel3: 微博 || https://weibo.com/youweics || fa-brands fa-weibo
+  channel4: RSS || /sitemap.xml || fa fa-rss
 
 # 文章的在线编辑
 # Post edit
 # Easily browse and edit blog source code online.
 postEdit:
   enable: true
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/
+  url: https://github.com/terwer/hugo-blog/tree/main/content/
 
 
 # 设置文本的对齐方式
@@ -384,8 +378,8 @@ postEdit:
 textAlign:
   # 可选值： start | end | left | right | center | justify | justify-all | match-parent
   # Available values: start | end | left | right | center | justify | justify-all | match-parent
-  desktop: justify
-  mobile: justify
+  desktop: left
+  mobile: left
 
 # 在手机端显示减少填充和边距
 # Reduce padding / margin indents on devices with narrow width.
@@ -474,7 +468,7 @@ githubBanner:
   enable: true
   # 你的 Github 仓库地址
   # Your repository url on Github.
-  permalink: https://github.com/hugo-next
+  permalink: https://github.com/terwer
   # 关注说明
   # Show this title when cursor move on.
   title: Follow me on GitHub
@@ -631,7 +625,7 @@ comments:
   # 可选值：livere | waline | utterances | artalk | giscus
   # Choose a comment system to be displayed by default.
   # Available values: livere | waline | utterances | artalk | giscus 
-  active: waline
+  active: artalk
   # 让用户自己选择使用评论插件留言
   # 如果设置为 false，将采用 active 参数的那个插件
   # Setting `true` means remembering the comment system selected by 
@@ -644,45 +638,45 @@ comments:
   # `name` 参数名可选值：livere | waline | utterances | artalk | giscus
   # Modify texts or order for any naves, here are some examples.
   nav:
+    - name: artalk
+      title: Artalk
+      color: "#886ce4"
+      weight: 1
     - name: waline
       title: Waline
       color: "#27ae60"
       weight: 2
-    - name: giscus
-      title: Giscus
-      color: "#886ce4"
-      weight: 1
 
 # Waline 评论插件
 # 更多配置信息请参考：https://waline.js.org/
 # Waline comments system
 # More info seee: https://waline.js.org/
-waline:
-  pageView: true
-  comment: true
-  placeholder: "请文明发言哟 ヾ(≧▽≦*)o"
-  sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
-  emoji: false
-  imgUploader: false
-  wordLimit: 200
-  requiredMeta: ['nick', 'mail']
-  reaction: true
-  reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
-  reactionTitle: "你认为这篇文章怎么样？"
-  # 请注意换成个人的 Waline Server 服务器地址
-  # Please replace this with your waline server URL
-  serverURL: https://walinejs.comment.lithub.cc
+#waline:
+#  pageView: true
+#  comment: true
+#  placeholder: "请文明发言哟 ヾ(≧▽≦*)o"
+#  sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
+#  emoji: false
+#  imgUploader: false
+#  wordLimit: 200
+#  requiredMeta: ['nick', 'mail']
+#  reaction: true
+#  reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
+#  reactionTitle: "你认为这篇文章怎么样？"
+#  # 请注意换成个人的 Waline Server 服务器地址
+#  # Please replace this with your waline server URL
+#  serverURL: https://walinejs.comment.lithub.cc
 
 # Artalk 评论插件
 # 更多配置信息请参考：https://artalk.js.org
 # Artalk comments system
 # More info see: https://artalk.js.org
-# artalk:
-#   site: "默认站点"
-#   placeholder: "请文明发言，谢谢！"
-#   server: #<your artalk server url>
+artalk:
+ site: "HUGO博客"
+ placeholder: "你认为这篇文章怎么样？"
+ server: https://talk.terwergreen.com:8003
 
-# Artalk 评论插件
+# LiveRe 评论插件
 # 更多配置信息请参考：
 # LiveRe comments system
 # You can get your uid from https://livere.com/
@@ -844,7 +838,7 @@ chat:
 # Gitter Support
 # For more information: https://gitter.im
 gitter:
-  enable: true
+  enable: false
   room: hugo-next/community
 
 
