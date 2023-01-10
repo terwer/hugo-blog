@@ -9,7 +9,7 @@ tags:
   - 一级缓存
 categories:
   - post
-lastmod: '2023-01-10 20:03:43'
+lastmod: '2023-01-10 20:05:33'
 toc: true
 keywords: 查询,缓存,mybatis,一级缓存
 description: >-
@@ -23,7 +23,7 @@ isCJKLanguage: true
 
 通过场景来理解:
 
-​![](https://img1.terwer.space/api/public/202301101953222.png)​
+​![image](assets/image-20230110200521-wr4yko8.png)​
 
 ​​
 
