@@ -9,7 +9,7 @@ tags:
   - 一级缓存
 categories:
   - post
-lastmod: '2023-01-10 19:52:58'
+lastmod: '2023-01-10 19:53:36'
 toc: true
 keywords: 查询,缓存,mybatis,一级缓存
 description: >-
