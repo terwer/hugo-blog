@@ -9,7 +9,7 @@ tags:
   - 一级缓存
 categories:
   - post
-lastmod: '2023-01-10 18:55:35'
+lastmod: '2023-01-10 18:58:09'
 toc: true
 keywords: 查询,缓存,mybatis,一级缓存
 description: >-
@@ -22,6 +22,8 @@ isCJKLanguage: true
 在 MyBatis 中， **一级缓存是默认开启的** 。 
 
 通过场景来理解:
+
+​![](http://127.0.0.1:6806/assets/image-20230110185726-88ie92e.png)​
 
 ​![](https://img1.terwer.space/api/public/image-20230110172204-f242ojd.png)​
 
