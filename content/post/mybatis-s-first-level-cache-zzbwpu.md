@@ -1,5 +1,5 @@
 ---
-title: MyBatis的一级缓存
+title: 420.MyBatis的一级缓存
 slug: mybatis-s-first-level-cache-zzbwpu
 url: /post/mybatis-s-first-level-cache-zzbwpu.html
 tags:
@@ -9,7 +9,7 @@ tags:
   - 一级缓存
 categories:
   - post
-lastmod: '2023-01-10 20:08:36'
+lastmod: '2023-01-10 21:06:29'
 toc: true
 keywords: 查询,缓存,mybatis,一级缓存
 description: >-
@@ -23,7 +23,7 @@ isCJKLanguage: true
 
 通过场景来理解:
 
-​![](https://img1.terwer.space/api/public/202301102008815.png)​
+​![image](assets/image-20230110200820-18mdcxu.png)​
 
 ​​
 
