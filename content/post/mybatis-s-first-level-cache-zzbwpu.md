@@ -9,11 +9,11 @@ tags:
   - 一级缓存
 categories:
   - post
-lastmod: '2023-01-11 00:18:51'
+lastmod: '2023-01-28 10:41:42'
 toc: true
 keywords: 查询,缓存,mybatis,一级缓存
 description: >-
-  概述在mybatis中一级缓存是默认开启的。参考_mybatis缓存的概念通过场景来理解_​​‍​​​​场景一在一个sqlsession中对user表进行两次根据id的查询查看发出sql语句的情况。根据id查询用户at_paramidat_returnat_select()userfinduserbyid(integerid)_at_beforepublicvoidbefore()throwsexception{systemoutprintln(inputstreamresourceasstream=re
+  概述在mybatis中一级缓存是默认开启的。参考_mybatis缓存的概念通过场景来理解_​​‍‍​​场景一在一个sqlsession中对user表进行两次根据id的查询查看发出sql语句的情况。根据id查询用户at_paramidat_returnat_select()userfinduserbyid(integerid)_at_beforepublicvoidbefore()throwsexception{systemoutprintln(inputstreamresourceasstream=res
 isCJKLanguage: true
 ---
 
@@ -24,14 +24,6 @@ isCJKLanguage: true
 参考：[410.MyBatis缓存的概念](siyuan://blocks/20220906003103-cbryvx8)
 
 通过场景来理解:
-
-​![](https://img1.terwer.space/api/public/202301102346358.png)​
-
-‍
-
-​![](https://img1.terwer.space/api/public/202301102343303.png)​
-
-​​
 
 ## 场景一
 
