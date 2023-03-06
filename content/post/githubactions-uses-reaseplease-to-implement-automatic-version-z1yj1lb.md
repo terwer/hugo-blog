@@ -11,7 +11,7 @@ tags:
   - google
 categories:
   - post
-lastmod: '2023-03-06 22:13:11'
+lastmod: '2023-03-06 22:20:00'
 toc: true
 keywords: 自动,发版,release,release-please,google
 description: >-
@@ -86,6 +86,8 @@ jobs:
 
 **注意 1：任务运行完毕后并不是直接就发版了，而是会新建一个 pr，可以检查 pr 内容，需要发版，就合并。如果暂时不发版，可以直接关闭这个 pr。**
 
+​![](https://static.terwergreen.com/test/202303062218788.png)​
+
 **注意 2：pr 会自动递增版本号，所以不要提前手动更改版本号。node 项目的版本号是 package.json 里面的 version 字段，格式是：x.x.x 。**
 
 **版本号规则是：**
@@ -93,6 +95,10 @@ jobs:
 **feat-&gt;大版本，例如：1.0.0-&gt;1.1.0**
 
 **fix-&gt;小版本，例如：1.0.0-&gt;1.0.1**
+
+如果从未发过版本，那么初始是 `1.0.0`​ 。
+
+​![](https://static.terwergreen.com/test/202303062219276.png)​
 
 ‍
 
