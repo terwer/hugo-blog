@@ -11,7 +11,7 @@ tags:
   - google
 categories:
   - post
-lastmod: '2023-03-06 22:10:16'
+lastmod: '2023-03-06 22:13:11'
 toc: true
 keywords: 自动,发版,release,release-please,google
 description: >-
@@ -151,7 +151,7 @@ jobs:
 
   注意：默认的 Github 仓库不允许拉取，需要开启权限才行。方法如下：
 
-  转到 `https://github.com/OWNER/REPO/settings/actions`​ 页面向下划到 **Workflow Permissions** 然后切换到 s **Read and Write permissions 。**
+  转到 `https://github.com/OWNER/REPO/settings/actions`​ 页面向下划到 **Workflow Permissions** 然后切换到 **Read and Write permissions 。**
 
   ​![](https://static.terwergreen.com/test/202303062150540.png)​
 
