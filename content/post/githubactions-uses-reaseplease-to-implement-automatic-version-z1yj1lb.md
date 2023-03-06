@@ -3,13 +3,19 @@ title: Github-Actions使用release-please实现自动发版
 slug: githubactions-uses-reaseplease-to-implement-automatic-version-z1yj1lb
 url: >-
   /post/githubactions-uses-reaseplease-to-implement-automatic-version-z1yj1lb.html
-tags: []
-categories: []
-lastmod: '2023-03-06 21:54:06'
+tags:
+  - 自动
+  - 发版
+  - release
+  - release-please
+  - google
+categories:
+  - post
+lastmod: '2023-03-06 22:01:55'
 toc: true
-keywords: ''
+keywords: 自动,发版,release,release-please,google
 description: >-
-  ​releaseplease​是一个来自于google​的自动发版工具基于githubactions可实现全自动发版。官网_https_githubcomgoogleapisreleaseplease上手在项目根目录的github​的workflows​里面新建一个releasepleaseyml​文件下面是一个准对的node项目的标准配置_on_push_branches_mainname_releasepleasejobs_releaseplease_runson_ubuntulateststeps_
+  githubactions使用releaseplease实现自动发版​releaseplease​是一个来自于google​的自动发版工具基于githubactions可实现全自动发版。官网_https_githubcomgoogleapisreleaseplease上手在项目根目录的github​的workflows​里面新建一个releasepleaseyml​文件下面是一个准对的node项目的标准配置_on_push_branches_mainname_releasepleasejobs_relea
 isCJKLanguage: true
 ---
 
@@ -77,6 +83,48 @@ jobs:
 ```
 
 提交之后，正常情况就会在 main 的 push 事件触发之时，启动自动发版，包括发布到 npm 仓库。
+
+如果不需要发不发哦 npm，可以使用下面的配置：
+
+```yaml
+on:
+  push:
+    branches:
+      - main
+
+name: release-please
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      # create release pr
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: release-please-action
+          changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
+      - run: echo "A release was created."
+        if: ${{ steps.release.outputs.releases_created }}
+      - run: echo "Release ${{ steps.release.outputs['packages/package-a--tag_name'] }} created for package-a."
+        if: ${{ steps.release.outputs['packages/package-a--release_created'] }}
+
+      # create tag
+      - uses: actions/checkout@v3
+      - name: tag major and minor versions
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git tag -d v${{ steps.release.outputs.major }} || true
+          git tag -d v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }} || true
+          git push origin :v${{ steps.release.outputs.major }} || true
+          git push origin :v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }} || true
+          git tag -a v${{ steps.release.outputs.major }} -m "Release v${{ steps.release.outputs.major }}"
+          git tag -a v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }} -m "Release v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}"
+          git push origin v${{ steps.release.outputs.major }}
+          git push origin v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}
+
+```
 
 ## 注意事项
 
