@@ -11,8 +11,9 @@ tags:
   - cli
   - ts
   - typescript
-categories: []
-lastmod: '2023-03-08 17:55:47'
+categories:
+  - post
+lastmod: '2023-03-08 17:57:32'
 toc: true
 keywords: 项目,脚手架,开发,前端,cli,ts,typescript
 description: >-
@@ -756,19 +757,19 @@ export const downloadTemplate = (
 命令
 
 ```bash
-
+## default
 zhi-cli init my-project main
 
-
+## ts-cli
 zhi-cli init my-project ts-cli
 
-
+## ts-vite-lib
 zhi-cli init my-project ts-vite-lib
 
-
+## ts-vite-vue
 zhi-cli init my-project ts-vite-vue
 
-
+## ts-vite-react
 zhi-cli init my-project ts-vite-react
 ```
 
