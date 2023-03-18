@@ -11,11 +11,13 @@ tags:
   - border
   - border-radius
   - overflow
-categories: []
-lastmod: '2023-03-18 13:58:35'
+categories:
+  - post
+lastmod: '2023-03-18 13:59:30'
 toc: true
 keywords: 圆角,切掉,css,border,border-radius,overflow
-description: 问题症状大概是这个样子_​​解决办法给当前设置border和borderradius属性的元素加_overflow_auto_‍
+description: >-
+  解决css部分border被圆角切掉之后圆角的边框消失问题问题症状大概是这个样子_​​解决办法给当前设置border和borderradius属性的元素加_overflow_auto_‍
 isCJKLanguage: true
 ---
 
@@ -28,7 +30,7 @@ isCJKLanguage: true
 
 ## 解决办法
 
-给当前设置 border 和 border-[radius](https://so.csdn.net/so/search?q=radius&spm=1001.2101.3001.7020) 属性的元素加：
+给当前设置 `border`​ 和 `border-radius`​ 属性的元素加：
 
 ```css
 overflow: auto;
