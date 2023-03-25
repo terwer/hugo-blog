@@ -10,7 +10,7 @@ tags:
   - 扩展
 categories:
   - post
-lastmod: '2023-03-25 14:41:19'
+lastmod: '2023-03-25 23:05:12'
 toc: true
 keywords: 插件,功能,组件,可以,扩展
 description: >-
@@ -47,8 +47,16 @@ MyBatis 对持久层的操作依赖于这四大核心组件对象。MyBatis 支�
 
 ## MyBatis 插件的原理
 
-参考 [Mybatis基本流程](siyuan://blocks/20220830105327-gafnm5o)
+参考 [Mybatis基本流程](https://hugo.terwer.space/post/mybatis-basic-process-and-configuration-file-analysis.html)
 
-​![](https://img1.terwer.space/api/public/202303251430876.png)​
+​![image](assets/image-20230325134233-k1byy1x.png)​
+
+​![image](assets/image-20230325154535-ejti1z2.png)​
 
 
+
+​![这是个图片锚文本](assets/image-20230325160900-tfvy42x.png "这是个图片标题")​
+
+​![image](assets/image-20230325173641-f9tzx1c.png)​
+
+​![image](assets/image-20230325200855-mvbm00s.png)​
