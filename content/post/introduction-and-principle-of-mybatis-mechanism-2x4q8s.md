@@ -10,11 +10,11 @@ tags:
   - 扩展
 categories:
   - post
-lastmod: '2023-03-25 13:35:59'
+lastmod: '2023-03-25 14:41:19'
 toc: true
 keywords: 插件,功能,组件,可以,扩展
 description: >-
-  插件简介什么是插件插件是一种软件组件可以在另一个软件程序中添加功能或特性。插件通常被设计成可以==随时添加或删除==的而不影响==主程序==的功能。插件可以==扩展==软件程序的功能这让用户可以根据自己的需求定制软件提高工作效率。常见的插件包括浏览器插件音频和视频编辑软件的特效插件图形处理软件的滤镜插件等。mybatis插件介绍mybatis作为一个通用的dao层框架也提供了插件的机制例如_我们可以用插件实现分页分表监控等功能。mybatis在四大组件（==exector====statmenthandl
+  mybatis机制介绍与原理插件简介什么是插件插件是一种软件组件可以在另一个软件程序中添加功能或特性。插件通常被设计成可以==随时添加或删除==的而不影响==主程序==的功能。插件可以==扩展==软件程序的功能这让用户可以根据自己的需求定制软件提高工作效率。常见的插件包括浏览器插件音频和视频编辑软件的特效插件图形处理软件的滤镜插件等。mybatis插件介绍mybatis作为一个通用的dao层框架也提供了插件的机制例如_我们可以用插件实现分页分表监控等功能。mybatis在四大组件（==exector===
 isCJKLanguage: true
 ---
 
@@ -47,4 +47,8 @@ MyBatis 对持久层的操作依赖于这四大核心组件对象。MyBatis 支�
 
 ## MyBatis 插件的原理
 
-参考 [Mybatis基本流程](https://hugo.terwer.space/post/mybatis-basic-process-and-configuration-file-analysis.html)
+参考 [Mybatis基本流程](siyuan://blocks/20220830105327-gafnm5o)
+
+​![](https://img1.terwer.space/api/public/202303251430876.png)​
+
+
