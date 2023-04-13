@@ -1,8 +1,8 @@
 ---
 title: Hibernate的关键API详解以及上手第一个Hibernate项目
-slug: the-key-api-of-hibernate-15u0gc
-url: /post/the-key-api-of-hibernate-15u0gc.html
-date: '2022-10-19 23:14:54'
+slug: /the-key-api-of-hibernate-15u0gc.html
+url: ''
+date: 2022-10-19 23:14:54
 tags:
   - 使用
   - 步骤
@@ -11,17 +11,14 @@ tags:
   - hibernate
   - api
 categories:
-  - post
-lastmod: '2023-01-03 22:55:03'
+  - Hibernate
+  - 后端开发
+lastmod: ''
 toc: true
 keywords: 使用,步骤,开始,开发,hibernate,api
-description: >-
-  hibernate的关键api详解以及上手第一个hibernate项目在java中使用hibernate的步骤​开始hibernate开发​​上手第一个hibernate项目新建项目打开myeclipse新建一个web项目​​项目名称为hibernate配置使用默认（javajavaeejstl）点击finish完成即可。​​集成struts在pomxml​​加上struts的依赖我们使用struts的新版本struts​​webxml​加上对应的过滤器xmlns_xsi=xsi_schemalocati
+description: hibernate的关键api详解以及上手第一个hibernate项目在java中使用hibernate的步骤​开始hibernate开发​​上手第一个hibernate项目新建项目打开myeclipse新建一个web项目​​项目名称为hibernate配置使用默认（javajavaeejstl）点击finish完成即可。​​集成struts在pomxml​​加上struts的依赖我们使用struts的新版本struts​​webxml​加上对应的过滤器xmlns_xsi=xsi_schemalocati
 isCJKLanguage: true
 ---
-
-
-
 ## 在 Java 中使用 Hibernate 的步骤
 
 ![](https://img1.terwer.space/api/public/20221019232220.png)​

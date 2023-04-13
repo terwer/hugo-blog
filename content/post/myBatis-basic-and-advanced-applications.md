@@ -1,24 +1,23 @@
 ---
 title: MyBatis的基本介绍及优势
-slug: myBatis-basic-and-advanced-applications
-url: /post/myBatis-basic-and-advanced-applications.html
-date: '2022-08-29 23:59:51'
+slug: /myBatis-basic-and-advanced-applications.html
+url: ''
+date: 2022-08-29 23:59:51
 tags:
   - mybatis
   - framework
   - basic
   - mybatis-6
-categories: []
-lastmod: '2022-12-29 10:26:48'
+categories:
+  - MyBatis
+  - 后端开发
+  - 开源框架
+lastmod: ''
 toc: true
 keywords: mybatis,framework,basic,mybatis-6
-description: >-
-  mybatis的历史由来mybatis原本是apache软件基金会的一个开源项目叫做ibatis年这个项目由apache迁移到了googlecode管理才改名为mybatis年又迁移到了github。ibatis一词来源于internet和abatis的组合是一个由clintonbegin在年发起的开放源代码项目。mybatis简介mybatis是一个基于orm的半自动轻量级的持久层框架。支持定制化sql存储过程和高级映射。mybatis几乎避免了所有的jdbc代码和手动设置参数与获取结果集。mybati
+description: mybatis的历史由来mybatis原本是apache软件基金会的一个开源项目叫做ibatis年这个项目由apache迁移到了googlecode管理才改名为mybatis年又迁移到了github。ibatis一词来源于internet和abatis的组合是一个由clintonbegin在年发起的开放源代码项目。mybatis简介mybatis是一个基于orm的半自动轻量级的持久层框架。支持定制化sql存储过程和高级映射。mybatis几乎避免了所有的jdbc代码和手动设置参数与获取结果集。mybati
 isCJKLanguage: true
 ---
-
-
-
 ## MyBatis 的历史由来
 
 `Mybatis` 原本是 Apache 软件基金会的一个开源项目叫做 `iBatis` ，2010 年这个项目由 Apache 迁移到了 google code 管理才改名为 Mybatis，2013 年又迁移到了 GitHub。
@@ -50,4 +49,6 @@ Mybatis 是目前比较流行的 Dao 层框架。
 MyBatis 是一个半自动的持久层框架。对开发人员，核心 SQL 还是需要自己编写，SQL 和编码分开，功能边界清晰，一个专注业务，一个专注数据。
 
 > 文章更新历史
-> 2022/05/08 feat:调整目录结构
+>
+> 2022/05/08 feat:调整目录结构。
+>

@@ -1,8 +1,8 @@
 ---
 title: Github-Actions使用release-please实现自动发版
-slug: githubactions-uses-reaseplease-to-implement-automatic-version-z1yj1lb
-url: >-
-  /post/githubactions-uses-reaseplease-to-implement-automatic-version-z1yj1lb.html
+slug: /githubactions-uses-reaseplease-to-implement-automatic-version-z1yj1lb.html
+url: ''
+date: 2023-03-06 21:38:33
 tags:
   - 自动
   - 发版
@@ -10,17 +10,14 @@ tags:
   - release-please
   - google
 categories:
-  - post
-lastmod: '2023-03-07 00:22:24'
+  - 开发流程
+  - 开发效率
+lastmod: ''
 toc: true
 keywords: 自动,发版,release,release-please,google
-description: >-
-  githubactions使用releaseplease实现自动发版​releaseplease​​是一个来自于google​​的自动发版工具基于githubactions​可实现全自动发版。官网_https_githubcomgoogleapisreleaseplease上手在项目根目录的github​的workflows​里面新建一个releasepleaseyml​文件下面是一个标准的node​项目的标准配置_on_push_branches_mainname_releasepleasejobs_r
+description: githubactions使用releaseplease实现自动发版​releaseplease​​是一个来自于google​​的自动发版工具基于githubactions​可实现全自动发版。官网_https_githubcomgoogleapisreleaseplease上手在项目根目录的github​的workflows​里面新建一个releasepleaseyml​文件下面是一个标准的node​项目的标准配置_on_push_branches_mainname_releasepleasejobs_r
 isCJKLanguage: true
 ---
-
-
-
 ​`release please`​​ 是一个来自于 `Google`​​ 的自动发版工具，基于 `Github Actions`​ 可实现全自动发版。
 
 官网：[https://github.com/googleapis/release-please](https://github.com/googleapis/release-please)

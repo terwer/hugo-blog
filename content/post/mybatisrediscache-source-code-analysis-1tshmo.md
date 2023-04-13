@@ -1,27 +1,24 @@
 ---
 title: MyBatis-RedisCache源码分析
-slug: mybatisrediscache-source-code-analysis-1tshmo
-url: /post/mybatisrediscache-source-code-analysis-1tshmo.html
+slug: /mybatisrediscache-source-code-analysis-1tshmo.html
+url: ''
+date: 2023-02-20 19:35:10
 tags:
   - 通过
   - 方法
   - 分析
   - 实现
   - 读取
-  - redis
-  - cache
-  - mybatis
-categories: []
-lastmod: '2023-02-20 22:27:26'
+categories:
+  - MyBatis
+  - 后端开发
+  - 开源框架
+lastmod: ''
 toc: true
-keywords: 通过,方法,分析,实现,读取,redis,cache,mybatis
-description: >-
-  回顾在前面我们通过redis​集成了mybatis​的二级缓存mybatis的二级缓存整合redis接下来我们来分析一下rediscache​的源码。源码分析rediscache主要是通过实现cache接口来做的。数据存储和获取主要是通过操作jedis来实现。publicfinalclassrediscacheimplementscache{privatefinalreadwritelockreadwritelock=newdummyreadwritelock()_privatestringid_priv
+keywords: 通过,方法,分析,实现,读取
+description: 回顾在前面我们通过redis​集成了mybatis​的二级缓存mybatis的二级缓存整合redis接下来我们来分析一下rediscache​的源码。源码分析rediscache主要是通过实现cache接口来做的。数据存储和获取主要是通过操作jedis来实现。publicfinalclassrediscacheimplementscache{privatefinalreadwritelockreadwritelock=newdummyreadwritelock()_privatestringid_priv
 isCJKLanguage: true
 ---
-
-
-
 ## 回顾
 
 在前面，我们通过 `redis`​ 集成了 `MyBatis`​ 的二级缓存，[440.MyBatis的二级缓存整合redis](siyuan://blocks/20230213211210-bl7c6m0) ，接下来，我们来分析一下 `RedisCache`​ 的源码。

@@ -1,25 +1,24 @@
 ---
 title: MyBatis的基本使用
-slug: basic-use-of-mybatis
-url: post/basic-use-of-mybatis.html
-date: '2022-08-30 00:29:58'
+slug: /basic-use-of-mybatis.html
+url: ''
+date: 2022-08-30 00:29:58
 tags:
   - mybatis
   - basic
   - use
   - framework
   - mybatis-8
-categories: []
-lastmod: '2022-12-28 11:18:03'
+categories:
+  - MyBatis
+  - 后端开发
+  - 开源框架
+lastmod: ''
 toc: true
 keywords: mybatis,basic,use,framework,mybatis-8
-description: >-
-  快速入门mybatis的官网_https_mybatisorgmybatismybatis的开发步骤添加mybatis的坐标创建user数据表createtable`user`(`id`int()notnullauto_increment`username`varchar()defaultnull`password`varchar()defaultnullprimarykey(`id`))engine=innodbauto_increment=defaultcharset=utfmb_insertinto
+description: 快速入门mybatis的官网_https_mybatisorgmybatismybatis的开发步骤添加mybatis的坐标创建user数据表createtable`user`(`id`int()notnullauto_increment`username`varchar()defaultnull`password`varchar()defaultnullprimarykey(`id`))engine=innodbauto_increment=defaultcharset=utfmb_insertinto
 isCJKLanguage: true
 ---
-
-
-
 ## 快速入门
 
 Mybatis的官网：[https://mybatis.org/mybatis-3/](https://mybatis.org/mybatis-3/)

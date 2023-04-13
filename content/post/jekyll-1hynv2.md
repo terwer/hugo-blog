@@ -1,25 +1,24 @@
 ---
 title: Jekyll平台配置指南
-slug: jekyll-1hynv2
-url: post/jekyll-1hynv2.html
-date: '2022-09-27 10:00:37'
+slug: /jekyll-1hynv2.html
+url: ''
+date: 2022-09-27 10:00:37
 tags:
   - 安装
   - 查看
   - 版本
   - 站点
   - 初始化
-categories: []
-lastmod: '2022-12-14 17:15:39'
+categories:
+  - 作品展示
+  - sy-post-publisher
+  - 平台配置
+lastmod: ''
 toc: true
 keywords: 安装,查看,版本,站点,初始化
-description: >-
-  安装jekyllgeminstalljekyllwithcppflags=i(brewprefixopenssl)include查看jekyll版本jekyllv站点初始化##gitcheckoutorphanghpagesgitrmrf创建新站点jekyllnewskipbundle替换依赖##注释掉##gem##添加gem安装依赖bundleinstall解决依赖问题bundleaddwebrick本地运行bundleexecjekyllserve准备工作https_docsgithubcomenpa
+description: 安装jekyllgeminstalljekyllwithcppflags=i(brewprefixopenssl)include查看jekyll版本jekyllv站点初始化##gitcheckoutorphanghpagesgitrmrf创建新站点jekyllnewskipbundle替换依赖##注释掉##gem##添加gem安装依赖bundleinstall解决依赖问题bundleaddwebrick本地运行bundleexecjekyllserve准备工作https_docsgithubcomenpa
 isCJKLanguage: true
 ---
-
-
-
 ## 安装 Jekyll
 
 ```bash

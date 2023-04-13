@@ -1,29 +1,26 @@
 ---
 title: MyBatis的一级缓存
-slug: mybatis-s-first-level-cache-zzbwpu
-url: /post/mybatis-s-first-level-cache-zzbwpu.html
+slug: /mybatis-s-first-level-cache-zzbwpu.html
+url: ''
+date: 2022-09-06 22:33:15
 tags:
   - 查询
   - 缓存
   - mybatis
   - 一级缓存
 categories:
-  - post
-lastmod: '2023-01-28 10:41:42'
+  - MyBatis
+  - 后端开发
+  - 开源框架
+lastmod: ''
 toc: true
 keywords: 查询,缓存,mybatis,一级缓存
-description: >-
-  概述在mybatis中一级缓存是默认开启的。参考_mybatis缓存的概念通过场景来理解_​​‍‍​​场景一在一个sqlsession中对user表进行两次根据id的查询查看发出sql语句的情况。根据id查询用户at_paramidat_returnat_select()userfinduserbyid(integerid)_at_beforepublicvoidbefore()throwsexception{systemoutprintln(inputstreamresourceasstream=res
+description: 在mybatis中一级缓存是默认开启的。在一个sqlsession中对user表进行两次根据id的查询查看发出sql语句的情况。根据id查询用户@paramid@return@select()userfinduserbyid(integerid)_@beforepublicvoidbefore()throwsexception{systemoutprintln(inputstreamresourceasstream=resourcesgetresourceasstream(sqlsessionfactor
 isCJKLanguage: true
 ---
+在 MyBatis 中，一级缓存是默认开启的。
 
-## 概述
-
-在 MyBatis 中， **一级缓存是默认开启的** 。 
-
-参考：[410.MyBatis缓存的概念](siyuan://blocks/20220906003103-cbryvx8)
-
-通过场景来理解:
+通过场景来理解：
 
 ## 场景一
 

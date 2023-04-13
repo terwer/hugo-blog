@@ -1,22 +1,21 @@
 ---
 title: MyBatis的二级缓存
-slug: mybatis-s-secondary-cache-z2ssaab
-url: post/mybatis-s-secondary-cache-z2ssaab.html
-date: '2022-09-24 22:38:54'
+slug: /mybatis-s-secondary-cache-z2ssaab.html
+url: ''
+date: 2022-09-24 22:38:54
 tags:
   - 二级缓存
   - mybatis
-categories: []
-lastmod: '2022-12-25 21:29:44'
+categories:
+  - MyBatis
+  - 后端开发
+  - 开源框架
+lastmod: ''
 toc: true
 keywords: 二级缓存,mybatis
-description: >-
-  二级缓存的原理二级缓存的原理和一级缓存一样第一次查询会将数据放到缓存中然后第二次查询直接去缓存读取。但是一级缓存是基于sqlsession的二级缓存是基于mapper的namespace的。也就是说多个sqlsession可以共享同一个二级缓存区域。如果两个mapper的namespace相同那么即使是两个mapper这两个mapper执行sql查询的数据也将保存在相同的二级缓存区域中。​如何使用二级缓存注意_user需要实现序列化接口。开启二级缓存和一级缓存不一样二级缓存需要手动开启。首先在全局配置文件
+description: mybatis的二级缓存二级缓存的原理二级缓存的原理和一级缓存一样第一次查询会将数据放到缓存中然后第二次查询直接去缓存读取。但是一级缓存是基于sqlsession的二级缓存是基于mapper的namespace的。也就是说多个sqlsession可以共享同一个二级缓存区域。如果两个mapper的namespace相同那么即使是两个mapper这两个mapper执行sql查询的数据也将保存在相同的二级缓存区域中。​如何使用二级缓存注意_user需要实现序列化接口。开启二级缓存和一级缓存不一样二级缓存需要手动
 isCJKLanguage: true
 ---
-
-
-
 ## 二级缓存的原理
 
 二级缓存的原理和一级缓存一样，第一次查询会将数据放到缓存中，然后第二次查询直接去缓存读取。

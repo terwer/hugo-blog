@@ -1,8 +1,8 @@
 ---
 title: 使用TypeScript开发一个自定义的Node-js前端开发脚手架
-slug: use-typescript-to-develop-a-custom-nodejs-frontend-development-scaffold-1i5fne
-url: >-
-  /post/use-typescript-to-develop-a-custom-nodejs-frontend-development-scaffold-1i5fne.html
+slug: /use-typescript-to-develop-a-custom-nodejs-frontend-development-scaffold-1i5fne.html
+url: ''
+date: 2023-03-08 11:28:08
 tags:
   - 项目
   - 脚手架
@@ -12,17 +12,13 @@ tags:
   - ts
   - typescript
 categories:
-  - post
-lastmod: '2023-03-08 21:49:40'
+  - 前端开发
+lastmod: ''
 toc: true
 keywords: 项目,脚手架,开发,前端,cli,ts,typescript
-description: >-
-  使用typescript开发一个自定义的nodejs前端开发脚手架本文将从零开始介绍如何用nodejs​和typescript​​开发脚手架。可用版本的github地址_zhiclinpm的地址_zhicli需求来源如果我们之前花很大力气搭建了一个项目开发工具包但是有了新项目想用咋办常规办法就是拷贝模板文件。但是每次拷贝模版再去修改总是麻烦的不如来开发一个脚手架用命令行生成新的nodejs项目。什么是脚手架？我们都用过脚手架像vuecli​reactnativecli​expressgenerator​等
+description: 使用typescript开发一个自定义的nodejs前端开发脚手架本文将从零开始介绍如何用nodejs​和typescript​​开发脚手架。可用版本的github地址_zhiclinpm的地址_zhicli需求来源如果我们之前花很大力气搭建了一个项目开发工具包但是有了新项目想用咋办常规办法就是拷贝模板文件。但是每次拷贝模版再去修改总是麻烦的不如来开发一个脚手架用命令行生成新的nodejs项目。什么是脚手架？我们都用过脚手架像vuecli​reactnativecli​expressgenerator​等
 isCJKLanguage: true
 ---
-
-
-
 本文将从零开始介绍如何用 `Node.js`​ 和 `TypeScript`​​ 开发脚手架。
 
 可用版本的 github 地址：[zhi-cli](https://github.com/terwer/zhi-cli)

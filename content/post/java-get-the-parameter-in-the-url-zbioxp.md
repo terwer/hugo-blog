@@ -1,7 +1,8 @@
 ---
 title: Java获取url中参数
-slug: java-get-the-parameter-in-the-url-zbioxp
-url: /post/java-get-the-parameter-in-the-url-zbioxp.html
+slug: /java-get-the-parameter-in-the-url-zbioxp.html
+url: ''
+date: 2023-02-03 10:53:53
 tags:
   - 参数
   - 获取
@@ -9,17 +10,13 @@ tags:
   - 使用
   - 方案
 categories:
-  - post
-lastmod: '2023-02-03 17:40:05'
+  - 经验分享
+lastmod: ''
 toc: true
 keywords: 参数,获取,字符串,使用,方案
-description: >-
-  java获取url中参数方案在java中你可以利用urlencoder​​和urldecoder​​来对url字符串进行编解码然后使用stringsplit()​方法或者使用正则表达式​来从url字符串中获取参数。代码示例获取url中的参数at_paramurl链接at_paramkey参数keyat_return参数值publicstaticstringgetparameterfromurl(stringurlstringkey){string[]params=urlsplit(string[]quer
+description: 方案在java中你可以利用urlencoder​​和urldecoder​​来对url字符串进行编解码然后使用stringsplit()​方法或者使用正则表达式​来从url字符串中获取参数。代码示例获取url中的参数at_paramurl链接at_paramkey参数keyat_return参数值publicstaticstringgetparameterfromurl(stringurlstringkey){string[]params=urlsplit(string[]queryparams=para
 isCJKLanguage: true
 ---
-
-
-
 ## 方案
 
 在 Java 中，你可以利用 `URLEncoder ​` ​和 `URLDecoder ​` ​来对 URL 字符串进行编解码，然后使用 `String.split()`​ 方法或者使用 `正则表达式`​ 来从 URL 字符串中获取参数。

@@ -1,24 +1,21 @@
 ---
 title: Hibernate应用开发详解概述
-slug: detailed-explanation-of-hibernate-application-development-z3rwom
-url: /post/detailed-explanation-of-hibernate-application-development-z3rwom.html
-date: '2022-10-19 18:40:06'
+slug: /detailed-explanation-of-hibernate-application-development-z3rwom.html
+url: ''
+date: 2022-10-19 18:40:06
 tags:
   - 目标
   - hibernate
   - develop
 categories:
-  - post
-lastmod: '2023-01-03 10:07:23'
+  - Hibernate
+  - 后端开发
+lastmod: ''
 toc: true
 keywords: 目标,hibernate,develop
-description: >-
-  hibernate官网https_hibernateorg目标​应用程序分层结构体系的发展​​软件分层的优点​java应用的持久化层​hibernate是持久化层的一种实现​软件的模型​模型之间的关系​概念模型​购物网站领域的概念模型​实体与实体之间存在三种关系​关系数据模型​表的主键​表与表之间的参照完整性​域模型​域模型之间的关系​关联​依赖​聚集​域对象​实体域对象​过程域对象​事件域对象​域对象的持久化概念​​通过jdbcapi持久化实体域对象​jdbcapi​jdbc编程的缺点​​对象关系映射​
+description: hibernate官网https_hibernateorg目标​应用程序分层结构体系的发展​​软件分层的优点​java应用的持久化层​hibernate是持久化层的一种实现​软件的模型​模型之间的关系​概念模型​购物网站领域的概念模型​实体与实体之间存在三种关系​关系数据模型​表的主键​表与表之间的参照完整性​域模型​域模型之间的关系​关联​依赖​聚集​域对象​实体域对象​过程域对象​事件域对象​域对象的持久化概念​​通过jdbcapi持久化实体域对象​jdbcapi​jdbc编程的缺点​​对象关系映射​
 isCJKLanguage: true
 ---
-
-
-
 ## Hibernate 官网
 
 [https://hibernate.org](https://hibernate.org)

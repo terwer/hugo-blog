@@ -1,8 +1,8 @@
 ---
 title: Mac使用iTerm2代替默认终端
-slug: mac-use-iterm2-replace-default-termial
-url: /post/mac-use-iterm2-replace-default-termial.html
-date: '2022-10-21 18:36:48'
+slug: /mac-use-iterm2-replace-default-termial.html
+url: ''
+date: 2022-10-21 18:36:48
 tags:
   - mac
   - terminal
@@ -12,17 +12,14 @@ tags:
   - 打开
   - 默认
   - 终端
-categories: []
-lastmod: '2022-12-30 20:31:19'
+categories:
+  - 经验分享
+lastmod: ''
 toc: true
 keywords: mac,terminal,实用技巧,多个,配置,打开,默认,终端
-description: >-
-  默认的mac终端是不支持多个远程链接的也不支持多个tab通过配置使用iterm替换默认终端可以很方便的解决这些需求。下载地址https_itermcomdownloadsstableiterm__zip安装解压后直接拖进应用程序即可。配置管理多个远程链接并支持自动登录自动登录安装sshpass下载_http_sourceforgenetprojectssshpassfiles如果嫌慢可以使用我的阿里云osshttps_staticrsterwerosscnbeijingaliyuncscomlibsshp
+description: 默认的mac终端是不支持多个远程链接的也不支持多个tab通过配置使用iterm替换默认终端可以很方便的解决这些需求。下载地址https_itermcomdownloadsstableiterm__zip安装解压后直接拖进应用程序即可。配置管理多个远程链接并支持自动登录自动登录安装sshpass下载_http_sourceforgenetprojectssshpassfiles如果嫌慢可以使用我的阿里云osshttps_staticrsterwerosscnbeijingaliyuncscomlibsshp
 isCJKLanguage: true
 ---
-
-
-
 默认的 Mac 终端是不支持多个远程链接的，也不支持多个 tab，通过配置使用 iTerm2 替换默认终端可以很方便的解决这些需求。
 
 ## 下载地址
@@ -48,9 +45,7 @@ isCJKLanguage: true
 解压后，进入 sshpass 目录，执行安装
 
 ```bash
-./configure 
-make 
-make install
+./configure make make install
 ```
 
 理论上不会出什么问题，安装好后，执行命令检查是否已经 OK
@@ -65,7 +60,7 @@ sshpass -h
 
 ![](https://img1.terwer.space/api/public/20221021185405.png)​
 
-点击 Edit Profiles ，可以在新窗口里面新增 Profile​
+点击 Edit Profiles ，可以在新窗口里面新增Profile​
 
 添加一个新的 profile，其它没什么好配置的，主要是在 `General`​ 的 `command`​ 中选择使用 `command`​，命令就是 `sshpass`​ 的执行命令，如：
 
@@ -104,8 +99,7 @@ touch test.sh
 
 如果还有问题，可发邮件至 youweics@163.com ，或者直接给我留言。
 
-> 文章更新历史
->
+> 文章更新历史  
 > 2022-07-09 feat:初稿。
 >
 > 2022-10-21 feat:新增设置默认终端的方法，补充部分操作截图。

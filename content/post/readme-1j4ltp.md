@@ -1,26 +1,21 @@
 ---
 title: 文档首页
-slug: readme-1j4ltp
-url: post/readme-1j4ltp.html
-date: '2022-09-28 14:40:33'
+slug: /readme-1j4ltp.html
+url: ''
+date: 2022-09-28 14:40:33
 tags:
   - 文档
   - sy-p-003
   - sy-p-010
 categories:
-  - post
-lastmod: '2022-12-14 16:13:02'
+  - 作品展示
+  - sy-post-publisher
+lastmod: ''
 toc: true
 keywords: 文档,sy-p-003,sy-p-010
-description: >-
-  这里是sypostpublisher的文档。文档目录配置入门视频开始上手三种使用方式简介思源笔记挂件模式chrome浏览器扩展模式vercel远程部署模式平台配置博客园语雀wordpressjvueconferencevuepress链滴知识仓库jekyll（githubpages）hugohexonuxtnexttypeecho高级使用之文章与平台绑定高级使用之动态新增平台metaweblogapiwordpressgithubpages系列高级使用之自定义页面布局样式组件化拖拽式所见即所得的设计高级使
+description: 这里是sypostpublisher的文档。文档目录配置入门视频开始上手三种使用方式简介思源笔记挂件模式chrome浏览器扩展模式vercel远程部署模式平台配置博客园语雀wordpressjvueconferencevuepress链滴知识仓库jekyll（githubpages）hugohexonuxtnexttypeecho高级使用之文章与平台绑定高级使用之动态新增平台metaweblogapiwordpressgithubpages系列高级使用之自定义页面布局样式组件化拖拽式所见即所得的设计高级使
 isCJKLanguage: true
 ---
-
-
-
-
-
 这里是 [sy-post-publisher](https://github.com/terwer/src-sy-post-publisher) 的文档。
 
 ## 文档目录

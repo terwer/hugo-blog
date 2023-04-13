@@ -1,7 +1,8 @@
 ---
 title: MyBatis的二级缓存整合redis
-slug: mybatis-s-secondary-cache-integrated-redis-z9qyjo
-url: /post/mybatis-s-secondary-cache-integrated-redis-z9qyjo.html
+slug: /mybatis-s-secondary-cache-integrated-redis-z9qyjo.html
+url: ''
+date: 2023-02-13 21:12:10
 tags:
   - 二级缓存
   - 使用
@@ -9,17 +10,15 @@ tags:
   - 加上
   - 环境
 categories:
-  - post
-lastmod: '2023-02-14 01:01:30'
+  - MyBatis
+  - 后端开发
+  - 开源框架
+lastmod: ''
 toc: true
 keywords: 二级缓存,使用,问题,加上,环境
-description: >-
-  mybatis的二级缓存整合redismybatis自带的二级缓存存在的问题在前面我们使用at_cachenamespace​实现了mybatis的二级缓存这个底层使用hashmap​来实现。在单机环境下没有问题但是在分布式环境下就不行了。​​mybatis二级缓存在分布式环境下的问题解决为了解决这个问题可以使用分布式缓存保存mybatis二级缓存的数据。​​怎么自定义mybatis的二级缓存可以在at_cachenamespace​上面加上implementation例如默认的缓存可以写成_at_cac
+description: mybatis的二级缓存整合redismybatis自带的二级缓存存在的问题在前面我们使用at_cachenamespace​实现了mybatis的二级缓存这个底层使用hashmap​来实现。在单机环境下没有问题但是在分布式环境下就不行了。​​mybatis二级缓存在分布式环境下的问题解决为了解决这个问题可以使用分布式缓存保存mybatis二级缓存的数据。​​怎么自定义mybatis的二级缓存可以在at_cachenamespace​上面加上implementation例如默认的缓存可以写成_at_cac
 isCJKLanguage: true
 ---
-
-
-
 ## MyBatis 自带的二级缓存存在的问题
 
 在前面我们使用 `@CacheNamespace`​ 实现了 [430.MyBatis的二级缓存](siyuan://blocks/20220924223854-qygzxps) ，这个底层使用 `HashMap`​ 来实现。在 **单机环境** 下没有问题，但是在 **分布式环境** 下就不行了。

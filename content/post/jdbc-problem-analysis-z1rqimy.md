@@ -1,8 +1,8 @@
 ---
 title: JDBC的问题分析
-slug: jdbc-problem-analysis-z1rqimy
-url: /post/jdbc-problem-analysis-z1rqimy.html
-date: '2022-08-27 16:16:11'
+slug: /jdbc-problem-analysis-z1rqimy.html
+url: ''
+date: 2022-08-27 16:16:11
 tags:
   - 数据库
   - mybatis
@@ -12,17 +12,15 @@ tags:
   - framework
   - mybatis-1
 categories:
-  - post
-lastmod: '2023-01-02 11:43:56'
+  - MyBatis
+  - 后端开发
+  - 开源框架
+lastmod: ''
 toc: true
 keywords: 数据库,mybatis,jdbc,problem,问题,framework,mybatis-1
-description: >-
-  核心实现packagetest_importjavasqlconnection_importjavasqldrivermanager_importjavasqlpreparedstatement_importjavasqlresultset_at_authorterwerat_descriptionat_create_publicclassmain{publicstaticvoidmain(string[]args){connectionconnection=null_preparedstatementp
+description: jdbc的问题分析核心实现packagetest_importjavasqlconnection_importjavasqldrivermanager_importjavasqlpreparedstatement_importjavasqlresultset_at_authorterwerat_descriptionat_create_publicclassmain{publicstaticvoidmain(string[]args){connectionconnection=null_prepareds
 isCJKLanguage: true
 ---
-
-
-
 ## 核心实现
 
 ```java

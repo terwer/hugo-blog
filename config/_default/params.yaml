@@ -29,8 +29,8 @@ darkmode: true
 # 站点基本信息
 # Site Information Settings
 author: terwer
-subtitle: 专注于服务端技术分享
-description: 专注于服务端技术分享
+subtitle: Java、Python、Nodejs、Golang
+description: 专注于服务端开发
 keywords: 软件架构,服务端开发,Java,Spring,Dubbo,Zookeeper,微服务,vuejs,css3,html5,Node,git,github,markdown
 
 # 不同尺寸站点图标
@@ -152,7 +152,8 @@ siteState:
     # 组件类型，可选值为： 51la, busuanzi
     # 使用51la时需要注册账号：https://invite.51.la/1NUfGTS1?target=V6
     # Plguin value is: 51la, busuzazi
-    plugin: busuanzi
+    # plugin: busuanzi
+    plugin: 51la
 
 # 社交链接地址
 # 用法： `Key: 名称 || 链接地址 || 图标`
@@ -625,47 +626,48 @@ comments:
   # 可选值：livere | waline | utterances | artalk | giscus
   # Choose a comment system to be displayed by default.
   # Available values: livere | waline | utterances | artalk | giscus 
-  active: artalk
+  active: waline
   # 让用户自己选择使用评论插件留言
   # 如果设置为 false，将采用 active 参数的那个插件
   # Setting `true` means remembering the comment system selected by 
   # the visitor, otherwise use the `active` setting comment system.
   storage: false
-  # TODO
   # Lazyload all comment systems.
   # lazyload: false
   # 设置你要显示的2个评论插件，`weight` 数字越小越靠前
   # `name` 参数名可选值：livere | waline | utterances | artalk | giscus
   # Modify texts or order for any naves, here are some examples.
-  nav:
-    - name: artalk
-      title: Artalk
-      color: "#886ce4"
-      weight: 1
-    - name: waline
-      title: Waline
-      color: "#27ae60"
-      weight: 2
+# Artalk
+#  nav:
+#    - name: artalk
+#      title: Artalk
+#      color: "#886ce4"
+#      weight: 1
+#    - name: waline
+#      title: Waline
+#      color: "#27ae60"
+#      weight: 2
 
 # Waline 评论插件
 # 更多配置信息请参考：https://waline.js.org/
 # Waline comments system
 # More info seee: https://waline.js.org/
-#waline:
-#  pageView: true
-#  comment: true
-#  placeholder: "请文明发言哟 ヾ(≧▽≦*)o"
-#  sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
-#  emoji: false
-#  imgUploader: false
-#  wordLimit: 200
+waline:
+  pageView: true
+  comment: true
+  placeholder: "请文明发言哟 ヾ(≧▽≦*)o"
+  sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
+  emoji: false
+  imgUploader: false
+  wordLimit: 200
 #  requiredMeta: ['nick', 'mail']
-#  reaction: true
-#  reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
-#  reactionTitle: "你认为这篇文章怎么样？"
-#  # 请注意换成个人的 Waline Server 服务器地址
-#  # Please replace this with your waline server URL
-#  serverURL: https://walinejs.comment.lithub.cc
+  reaction: true
+  reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
+  reactionTitle: "你认为这篇文章怎么样？"
+  login: false
+  # 请注意换成个人的 Waline Server 服务器地址
+  # Please replace this with your waline server URL
+  serverURL: https://waline.terwergreen.com
 
 # Artalk 评论插件
 # 更多配置信息请参考：https://artalk.js.org
@@ -768,7 +770,7 @@ analytics:
   # 更多信息请参考：https://invite.51.la/1NUfGTS1?target=V6
   # 51La Analytics
   # See: https://invite.51.la/1NUfGTS1?target=V6 
-  #laId: #<anaytics_id> 
+  laId: K23MJ4ko8x2ItF0h
   # 百度统计
   # Baidu Analytics
   #baidu: #<anaytics_id>
@@ -778,10 +780,10 @@ analytics:
   # 不蒜子统计
   # Show Views / Visitors of the website / page with busuanzi.
   # For more information: http://ibruce.info/2015/04/04/busuanzi/
-  busuanzi:
-    visitorsIcon: fa fa-user
-    viewsIcon: fa fa-eye
-    postViews: true
+#  busuanzi:
+#    visitorsIcon: fa fa-user
+#    viewsIcon: fa fa-eye
+#    postViews: true
 
 
 # ---------------------------------------------------------------

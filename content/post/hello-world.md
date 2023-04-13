@@ -1,58 +1,74 @@
 ---
-title: "世界，你好！"
-description: "快速的描述下有关于 Hugo 建站的基本用法。"
-
-lastmod: 2022-06-03T16:43:23+08:00
-date: 2022-06-02T11:52:03+08:00
-
-categories:
- - 博客
+title: Hello World
+slug: /hello-world.html
+url: ''
+date: 2022-04-24 13:42:19
 tags:
- - Hugo
- - 开始
-
-url: post/hello-world.html
+  - draft
+  - timeline
+categories: []
+lastmod: ''
 toc: true
+keywords: draft
+isCJKLanguage: true
 ---
+本文主要用于本博客各种功能效果演示及验证，内容无参考价值。
 
-> “使用 `weight` 关键字置顶文章。”
+<!-- more -->
+# Hello World
 
-[Hugo](https://gohugo.io/) 是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。
+## Artalk评论
 
-<!--more-->
+请查看本页面底部的评论框，体验效果。
 
-## 快速开始
+## Markdown数学公式
 
-### 发表新文章
+- 代码
 
-```shell
-$ hugo new hello-world.md
+```
+行内公式：$E = mc^2$
+
+$\sum_{a}^{b}$
+
+行块公式：
+
+$$
+i\hbar\frac{\partial \psi}{\partial t} = \frac{-\hbar^2}{2m} ( \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2} ) \psi + V \psi.
+$$
 ```
 
-更多信息：[内容格式](https://gohugo.io/content-management/formats/)
+- 效果
 
-### 启动服务
+行内公式：$E = mc^2$
 
-```shell
-$ hugo server
+$\sum_{a}^{b}$
+
+行块公式：
+
+$$
+i\hbar\frac{\partial \psi}{\partial t} = \frac{-\hbar^2}{2m} ( \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2} ) \psi + V \psi.
+$$
+
+## 使用标记
+
+- 代码
+
+```
+#### 《沁园春·雪》 <Badge text="摘"/>
+
+北国风光<Badge text="注释" type="warning"/>，千里冰封，万里雪飘。
+
+> <Badge text="译文" type="error" vertical="middle"/>: 北方的风光。
 ```
 
-更多信息：[Hugo 服务命令行](https://gohugo.io/commands/hugo_server/)
+- 效果
 
-### 生成静态文件
+#### 《沁园春·雪》 <Badge text="摘"/>
 
-```shell
-$ hugo
-```
+北国风光<Badge text="注释" type="warning"/>，千里冰封，万里雪飘。
 
-更多信息：[Hugo 建站](https://gohugo.io/commands/hugo/)
+> <Badge text="译文" type="error" vertical="middle"/>: 北方的风光。
 
-### 部署到服务器
+## 参考
 
-```language
-$ hugo deploy
-```
-
-更多信息：[Hugo 发布](https://gohugo.io/commands/hugo_deploy/)
-
-祝你好运，相信你会喜欢上 Hugo 建站的旅程！谢谢！
+[https://doc.xugaoyi.com/pages/197691/#%E4%BB%A3%E7%A0%81%E5%9D%97%E9%80%89%E9%A1%B9%E5%8D%A1](https://doc.xugaoyi.com/pages/197691/#%E4%BB%A3%E7%A0%81%E5%9D%97%E9%80%89%E9%A1%B9%E5%8D%A1)

@@ -1,24 +1,22 @@
 ---
 title: IDEA自定义Maven的archetype
-slug: idea-zi-ding-yimaven-archetype
-url: /post/idea-zi-ding-yimaven-archetype.html
+slug: /idea-zi-ding-yimaven-archetype.html
+url: ''
+date: 2023-02-22 21:27:11
 tags:
   - 骨架
   - 创建
   - idea
   - maven
   - archetype
-categories: []
-lastmod: '2023-02-22 21:58:43'
+categories:
+  - 经验分享
+lastmod: ''
 toc: true
 keywords: 骨架,创建,idea,maven,archetype
-description: >-
-  在创建maven的项目时我们发现了一个很不方便的问题就是每次创建maven的工程的时候都需要选择一个骨架但是每个骨架都需要删除一部分东西才行这样的话实在是太不方便了。为什么要自定义archetype在创建maven的项目时我们发现了一个很不方便的问题就是每次创建maven的工程的时候都需要选择一个骨架但是每个骨架都需要删除一部分东西才行在平时开发中如果是分布式项目有可能会频繁创建子项目每次都要删除不要的文件然后拷贝我们要的文件例如弹簧配置webxml中配置等。这样做不仅会浪费大量时间拷贝和删除文件也容易导
+description: 在创建maven的项目时我们发现了一个很不方便的问题就是每次创建maven的工程的时候都需要选择一个骨架但是每个骨架都需要删除一部分东西才行这样的话实在是太不方便了。为什么要自定义archetype在创建maven的项目时我们发现了一个很不方便的问题就是每次创建maven的工程的时候都需要选择一个骨架但是每个骨架都需要删除一部分东西才行在平时开发中如果是分布式项目有可能会频繁创建子项目每次都要删除不要的文件然后拷贝我们要的文件例如弹簧配置webxml中配置等。这样做不仅会浪费大量时间拷贝和删除文件也容易导
 isCJKLanguage: true
 ---
-
-
-
 在创建 Maven 的项目时我们发现了一个很不方便的问题，就是每次创建 Maven 的工程的时候，都需要选择一个骨架，但是每个骨架都需要删除一部分东西才行，这样的话实在是太不方便了。
 
 ## 为什么要自定义 archetype

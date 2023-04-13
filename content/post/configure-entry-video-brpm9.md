@@ -1,26 +1,22 @@
 ---
 title: 配置入门视频
-slug: configure-entry-video-brpm9
-url: post/configure-entry-video-brpm9.html
-date: '2022-09-28 11:46:22'
+slug: /configure-entry-video-brpm9.html
+url: ''
+date: 2022-09-28 11:46:22
 tags:
   - 配置
   - 入门
   - 视频
   - sy-p-003
-categories: []
-lastmod: '2022-12-14 17:10:57'
+categories:
+  - 作品展示
+  - sy-post-publisher
+lastmod: ''
 toc: true
 keywords: 配置,入门,视频,sy-p-003
-description: >-
-  哔哩哔哩推荐bilibilihttps_wwwbilibilicomvideobvydcf?zw百度网盘下载链接链接_https_panbaiducomsgvjjkoijzpfgiifeoy_a?pwd=vo提取码_vo​‍
+description: 哔哩哔哩推荐bilibilihttps_wwwbilibilicomvideobvydcf?zw百度网盘下载链接链接_https_panbaiducomsgvjjkoijzpfgiifeoy_a?pwd=vo提取码_vo​‍
 isCJKLanguage: true
 ---
-
-
-
-
-
 ## 哔哩哔哩 <sup>推荐</sup>
 
 bilibili  
