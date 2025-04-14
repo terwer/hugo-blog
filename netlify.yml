@@ -1,5 +1,0 @@
-build:
-  commands:
-    - wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.146.3/hugo_0.146.3_Linux-64bit.tar.gz
-    - tar -zxvf hugo.tar.gz
-    - chmod +x hugo
