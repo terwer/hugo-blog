@@ -108,17 +108,3 @@ enableRobotsTXT: true
 # Compress all files when output
 minify:
   minifyOutput: true
-
-# Hugo 内嵌 image render hook：把 Markdown 中 /images/... 内部链接解析为全局资源并输出 baseURL 感知地址
-markup:
-  goldmark:
-    renderHooks:
-      image:
-        enableDefault: true
-
-module:
-  mounts:
-    - source: assets
-      target: assets
-    - source: static
-      target: assets
