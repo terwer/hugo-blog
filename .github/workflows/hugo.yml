@@ -38,7 +38,13 @@ jobs:
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: /tmp/hugo_cache
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: |
+          cat config/_default/images.yaml || echo "images.yaml MISSING"
+          echo "=== merged config (markup/module) ==="
+          hugo config | grep -i -A 12 "renderhooks\|image:" | head -40
+          echo "=== mounts ==="
+          hugo config | grep -i -A 10 "mounts:" | head -20
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
