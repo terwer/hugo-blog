@@ -36,13 +36,12 @@ jobs:
           hugo-version: "0.136.5"
           extended: true
       - name: Build with Hugo
-        env:
-          HUGO_CACHEDIR: /tmp/hugo_cache
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
+        run: |
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          echo "=== where did the image land ==="
+          find public -name "image-20250415102554*" | head -5 || true
+          echo "=== rendered img tags ==="
+          grep -o '<img[^>]*image-2025[^>]*' public/post/renderhook-test-7hm3kq/index.html | head -4 || true
 
   deploy:
     environment:
