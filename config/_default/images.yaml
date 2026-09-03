@@ -1,0 +1,13 @@
+# 启用 Hugo 内嵌 image render hook（0.123+），把 Markdown 中的内部图片链接
+# 解析为全局资源并输出带 baseURL 的绝对地址，使 /images/... 在任意部署路径下可用。
+# static 挂载为 assets 全局资源后，static/images/... 可被 hook 按 /images/... 查找。
+markup:
+  goldmark:
+    renderHooks:
+      image:
+        enableDefault: true
+
+module:
+  mounts:
+    - source: static
+      target: assets
